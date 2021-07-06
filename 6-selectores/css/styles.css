@@ -1,0 +1,96 @@
+/* 
+selectores simples:
+-selectores elementales
+  - selectore universal-> *
+    -selectors de tipo o etiqueta -> nombre de la etiqueta
+-selectors de atributo
+        - id -> id del elemento, inicia con un *
+     -clase -> clase del elemento, inicia con un .
+      otros atributos.
+        - [atributo] 
+      -  [atributo= valor]
+       -[atributo^=valor]
+     -[atributo*=valor
+    -[atributo $=valor]
+
+selectores compuestos:
+-selectoes agrupados
+-selectors combinadores
+-pseudoclases-pseudoelementos
+*/
+
+
+
+/* * {
+    background-color: steelblue;
+}
+
+h1 {
+    background-color: tomato;
+}
+
+p {
+    background-color: violet;
+}
+
+ul {
+    background-color: wheat;
+}
+
+li {
+    background-color: yellow;
+} */
+
+/* #title {
+    background-color: lawngreen;
+} */
+/* .title {
+    background-color: lightgray;
+}
+
+.text {
+    background-color: lime;
+} */
+
+/* [href] {
+    background-color: magenta;
+}
+
+[href="https://www.google.com/"] {
+    background-color: orangered;
+}
+
+[href^="color"] {
+    background-color: red;
+}
+
+[href*="modo"] {
+    background-color: green;
+}
+
+[href$="azul"] {
+    background-color: black;
+}
+
+[lang|="en-"] {
+    background-color: cornflowerblue;
+} */
+
+
+.text,
+.text2,
+.text3,
+.text4 {
+    background-color:coral;
+}
+
+/* .text2 {
+    background-color:coral;
+}
+
+.text3 {
+    background-color:coral;
+}
+.text4{
+    background-color:coral;
+} */
