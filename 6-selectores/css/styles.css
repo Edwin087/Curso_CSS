@@ -4,7 +4,7 @@ selectores simples:
   - selectore universal-> *
     -selectors de tipo o etiqueta -> nombre de la etiqueta
 -selectors de atributo
-        - id -> id del elemento, inicia con un *
+        - id -> id del elemento, inicia con un #
      -clase -> clase del elemento, inicia con un .
       otros atributos.
         - [atributo] 
@@ -17,8 +17,8 @@ selectores compuestos:
 -selectoes agrupados
 -selectors combinadores
 -pseudoclases-pseudoelementos
-*/
 
+*/
 
 
 /* * {
@@ -77,12 +77,12 @@ li {
 } */
 
 
-.text,
+/* .text,
 .text2,
 .text3,
 .text4 {
     background-color:coral;
-}
+} */
 
 /* .text2 {
     background-color:coral;
@@ -94,3 +94,19 @@ li {
 .text4{
     background-color:coral;
 } */
+
+/* div .title-2{
+    background-color: teal;
+}
+
+.text2 + .title-2{
+    background-color: tomato;
+}
+
+.text2 ~ p{
+    background-color: turquoise;
+} */
+
+.container > p{
+    background-color:yellow;
+}
