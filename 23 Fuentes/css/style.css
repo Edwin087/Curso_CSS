@@ -1,0 +1,37 @@
+/* Material Icons
+https://fonts.googleapis.com/css?family=Material+Icons
+    Material Icons Outlined
+https://fonts.googleapis.com/css?family=Material+Icons+Outlined    
+Material Icons Two Tone
+https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone
+    Material Icons Rounded
+https://fonts.googleapis.com/css?family=Material+Icons+Round
+    Material Icons Sharp
+https://fonts.googleapis.com/css?family=Material+Icons+Sharp
+*/
+
+@font-face {
+  font-family: "mano alzada";
+  src: url(../fonts/Hello\ Pirates\ -\ Personal\ Use.otf);
+}
+body {
+  background-color: #333;
+  color: aliceblue;
+  font-family: sans-serif;
+  /* font-family: "mano alzada"; */
+  /* font-family: "Roboto", sans-serif;
+  font-weight: 700;*/
+}
+
+/* .icon {
+  font-size: 2rem;
+  fill: aliceblue;
+} */
+.text {
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 red;
+}
+.link {
+  color: inherit;
+  text-decoration: underline;
+}
